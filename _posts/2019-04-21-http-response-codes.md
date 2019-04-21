@@ -23,6 +23,7 @@ This code indicates that the server has received and is processing the request, 
 * 103 Early Hints
 
 This status code is primarily intended to be used with the Link header to allow the user agent to start preloading resources while the server is still preparing a response.
+
 Successful responses
 --
 * 200 OK
@@ -68,6 +69,7 @@ Used inside a DAV: propstat response element to avoid enumerating the internal m
 * 226 IM Used (HTTP Delta encoding)
 
 The server has fulfilled a GET request for the resource, and the response is a representation of the result of one or more instance-manipulations applied to the current instance.
+
 Redirection messagesSection
 --
 
