@@ -116,5 +116,13 @@
       </li>
     {%- endif -%}
 
+    {%- if _author.stackoverflow -%}
+      <li title="{{ _locale_string_follow | replace: '[NAME]', 'StackOverflow' }}">
+        <a class="button button--circle stackoverflow-button" itemprop="sameAs" href="https://stackoverflow.com/users/story/{{ _author.stackoverflow }}" target="_blank">
+          <div class="icon">{%- include svg/icon/social/stackoverflow.svg -%}</div>
+        </a>
+      </li>
+    {%- endif -%}
+
   </ul>
 </div>

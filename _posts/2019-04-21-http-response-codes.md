@@ -70,7 +70,7 @@ Used inside a DAV: propstat response element to avoid enumerating the internal m
 
 The server has fulfilled a GET request for the resource, and the response is a representation of the result of one or more instance-manipulations applied to the current instance.
 
-Redirection messagesSection
+Redirection messages
 --
 
 * 300 Multiple Choice
