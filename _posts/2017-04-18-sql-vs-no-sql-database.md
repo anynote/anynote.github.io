@@ -15,6 +15,8 @@ tags: database SQL NoSQL
 		
 ## The many faces of NoSQL
 
+![4 types of NoSQL database](https://www.guru99.com/images/1/101818_0537_NoSQLTutori1.png)
+
 - Document Databases
 - Key-Value Stores
 - Graph Databases
