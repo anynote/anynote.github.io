@@ -14,7 +14,8 @@ type: article
   <div class="article__content" itemprop="articleBody">{{ content }}</div>
 
 <br/>
-<iframe src="https://reactions.me/reactions" height="30px" frameborder="0"></iframe>
+
+<div id='reactions'></div>
 
   {%- if _sharing -%}
     <section class="article__sharing d-print-none">{%- include sharing.html -%}</section>
