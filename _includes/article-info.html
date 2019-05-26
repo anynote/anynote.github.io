@@ -67,6 +67,8 @@
             </li>
           {%- endif -%}
 
+            <li><i class="far fa-eye"></i> <span class="reactions-list" data-reactions-url="{{  _article_url }}">0</span></li>
+
           {%- if _pageview -%}
             {%- if site.pageview.provider -%}
               {%- include snippets/get-locale-string.html key='VIEWS' -%}
